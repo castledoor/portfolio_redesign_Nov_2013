@@ -112,6 +112,12 @@ i.rocket:before {
 	padding-right: 10px;
 
 }
+
+p.email {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+}
 i.chevron-right:before {
 	font-family: "FontAwesome"
 	width:20px;
