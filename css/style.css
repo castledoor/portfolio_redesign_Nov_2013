@@ -96,6 +96,7 @@ i.retro:before  {
 
 i.chevron-left:before {
 	content:"\f053";
+	font-family: 'FontAwesome'
 	position: relative;
 	z-index: 1;
 	top: -3px;
@@ -106,8 +107,13 @@ i.rocket:before {
 	content: "\f135";
 	color: white;
 }
+.pink {
+	color: #e03368;
+	padding-right: 10px;
 
+}
 i.chevron-right:before {
+	font-family: "FontAwesome"
 	width:20px;
 	content:"\f054";
 	color:#e03368;
@@ -145,6 +151,7 @@ i.about:before {
 	color:white;
 }
 i.about-pink:before {
+	font-family: 'FontAwesome';
 	content: "\f004";
 	color:#e03368;
 	padding-right: 5px;
