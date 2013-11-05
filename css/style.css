@@ -18,6 +18,15 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
+body.projects {
+	background-color: rgba(67,67,67,0.5);
+}
+
+body.gridbackground {
+	background-image:url('../img/grid.png');
+	opacity:0.1;
+}
+
 span {
 	font-weight: 400;
 }
