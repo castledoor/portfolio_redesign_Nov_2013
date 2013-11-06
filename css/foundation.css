@@ -123,8 +123,8 @@ select {
 .column,
 .columns {
   position: relative;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
+  padding-left: 0px;
+  padding-right: 0px;
   width: 100%;
   float: left; }
 
