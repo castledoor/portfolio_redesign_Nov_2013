@@ -61,12 +61,12 @@ p {
 .info-block {
 
 	float left;
-	height:800px;
+	height:1000px;
 	padding: 0px;
 	border-color: #3bb5bd ;
 }
 .text {
-	margin-top: 130px;
+	margin-top: 90px;
 }
 
 a .info {
@@ -81,7 +81,7 @@ a {
 }
 
 
-p.desciption {
+p.description {
 	color:white;
 	margin: 12px;
 	font-weight: 200;
