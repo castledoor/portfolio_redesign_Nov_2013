@@ -17,6 +17,9 @@ body {
 	background-color: #fff;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
+.row .smaller {
+	width:100px;
+}
 
 .projects {
 	background-color: rgba(67,67,67,1.0);
