@@ -240,7 +240,5 @@ $(document).ready(function(e) {
 				  }
 				});
 			});
-	
-		});
-			
-		}); //Ready
+		});	
+	}); //Ready

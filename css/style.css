@@ -256,24 +256,8 @@ i.icon-plus-sign:before {
 }
 
 p.ramble {
-	font-size: 10px;
+	font-size: 12px;
 	text-indent: 16px;
-}
-
-
-#loading {
-   background-color: rgba(67,67,67,1.0);
-   background-repeat: no-repeat;
-   background-size: 150px 150px;
-   background-position: center center;
-   background-image: url('../img/loader.gif');
-   height: 100%;
-   width: 100%;
-   position: fixed;
-   z-index: 9999;
-   left: 0;
-   top: 0;
-   margin: 0;
 }
 
 #gallery {
