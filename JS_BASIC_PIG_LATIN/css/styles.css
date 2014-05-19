@@ -1,0 +1,43 @@
+body{
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #20b2aa;
+  
+}
+
+h1{ 
+  text-align: center;
+}
+
+input#englishToLatinForm {
+  height:106px;
+}
+
+img.fancypork  {
+  position: absolute;
+  left:-712px;
+  width:752px;
+  top: 220px;
+  height:auto;
+  opacity: .70;
+
+}
+
+.circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  color:white;
+  background-color: #ff69b4;
+  position: relative;
+  top: -340px;
+  left:-500px;
+  /* width and height can be anything, as long as they're equal */
+}
+
+#position {
+  position: relative;
+  top: 12px;
+}

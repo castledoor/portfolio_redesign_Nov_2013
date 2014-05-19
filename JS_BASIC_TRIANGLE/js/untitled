@@ -1,0 +1,29 @@
+*function isValidTriangle(side1, side2, side3) {
+
+  var longestSide = Math.max(side1, side2, side3);
+  var remainingSides = side1 + side2 + side3 - longestSide;
+  return longestSide <= remainingSides;
+}
+
+function isEquilateral(side1,side2,side3){
+  return (side1 === side2 && side1 === side3);
+}
+
+function isoscelese(side1,side2,side3){
+  return (side1 === side2 || side2 === side3 || side3 === side1);
+   
+}
+
+function scalene(side1,side2,side3){
+  if (side1 !== side2 || side2 !== side3 || side3 !== side1)
+    return false;
+}
+
+$(function()  {
+  $("form#sideInput").submit(function() {
+    if(!$.isNumeric($('input#sideOne' && 'input#sideTwo' && 'input#sideThree').val())) {
+      alert("What kinda triangle is that?");
+      return false;
+    }
+  })
+})

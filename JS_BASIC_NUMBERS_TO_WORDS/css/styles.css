@@ -1,0 +1,97 @@
+
+body {
+  background: url(../img/ticks.png) ; 
+
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: 2;*/
+  /*font-family: 'Varela', sans-serif;
+  font-family: 'Bowlby One', cursive;*/
+
+}
+
+html {
+	color:white;
+}
+h1 	{
+/* 	font-family: 'Bowlby One', cursive;
+ 	color: white;*/
+ }
+
+img#header {
+  text-align: center;
+  left: 200px;
+  position: relative;
+  padding-top: 50px;
+
+ }
+
+ footer {
+  background: #efdaae;
+  width: 100%;
+  height:70px;
+  position:fixed;
+  bottom:0px;
+  margin:0px;
+  margin-bottom: -1px;
+  z-index: 1000;
+
+}
+
+input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    text-align: center;
+    position: relative;
+    left: 388px;
+    top: 70px;
+}
+
+#result {
+   font-family: 'Varela', sans-serif;
+   text-align: center;
+   position: relative;
+   top: 70px;
+   color:#84888a;
+   font-size: 20px;
+   display: none;
+
+}
+#usernumber{
+color:#8bbfc8;
+font-weight: bold;
+font-size: 30px;
+}
+
+#answer{
+  font-size: 60px;
+
+}
+#footer {
+  height: 67px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  left: 604px;
+}
+
+#backButton {
+  width:65px;
+  position: relative;
+  top: -118px;
+  left: -83px;
+}

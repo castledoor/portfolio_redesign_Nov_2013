@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Yacht</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Yacht Dice Game</h1>
+
+      <p class="lead">You have 13 rolls to score the most points, Good Luck!</p>
+      <div id="overD"> <p id="over">GAME OVER!<p> </div>   
+      <div><a href="javascript:location.reload(true);"><p id="newGame">NEW GAME!<p></a> </div>
+
+       <div id="player1">
+          <div class="span-4" id="game">
+          <p>Player 1 score: <span id="player1Score">0</span></p>
+         
+          </div>
+
+         <div class="span-4" id="controls">
+          <button class="btn btn-primary" id="roll">Roll!</button>
+         </div>
+         <div class="span-4" id="turn">
+          <p>You rolled: <strong><span class= "rollnumber" id="current-roll"></span></strong>.</p>
+         
+         <p>you've scored  <strong><span class= "rollnumber" id="current-turn-score"></span></strong> points this turn.</p>
+         </div>
+       </div>
+
+<div id="player2">
+        <div class="span-4" id="game">
+          <p>Player 2 score: <span id="player2Score">0</span></p>
+         
+        </div>
+
+        <div class="span-4" id="controls">
+          <button class="btn btn-primary" id="roll1">Roll!</button>
+        </div>
+          <div class="span-4" id="turn1">
+          <p>You rolled: <strong><span class= "rollnumber" id="current-roll1"></span></strong>.</p>
+           <p>you've scored  <strong><span class= "rollnumber" id="current-turn-score1"></span></strong> points this turn.</p>
+        </div>
+           
+      </div>
+    </div>
+  </body>
+</html>

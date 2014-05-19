@@ -1,0 +1,26 @@
+body{
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #20b2aa;
+  
+}
+
+h1{ 
+  text-align: center;
+}
+
+input#englishToLatinForm {
+  height:106px;
+}
+
+img.fancypork  {
+  position: absolute;
+  left:-712px;
+  width:752px;
+  top: 252px;
+  height:auto;
+  opacity: .70;
+
+}

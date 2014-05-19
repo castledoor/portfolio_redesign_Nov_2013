@@ -1,0 +1,154 @@
+
+
+body {
+  background: url(../img/triangle.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+
+}
+}
+
+label {
+  display: block;
+
+}
+
+input {
+  display: block;
+  position: relative;
+  left:1190px;
+  top: -56px;
+  padding-top: 25px;
+  width: 60px;
+
+}
+
+.hiding {
+  display: none;
+}
+
+.container-fluid{
+
+  height: 213px;
+  color: #ffffff;
+  position: relative;
+  top: 92px;
+  padding-top: 63px;
+
+}
+h1{
+  font-family: 'Holtwood One SC', serif;
+  color: #C5D1CF;
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+
+}
+
+#header {
+  background-color: grey;
+  opacity: .5;
+  position: absolute;
+  z-index: -1;
+  width: 800px;
+  border-radius: 10px;
+  height: 341px;
+  left: 200px;
+  top:279px;
+  display: none;
+}
+
+label{
+  font-family: 'Holtwood One SC', serif;
+  color: #C5D1CF;
+  font-size: 40px;
+  position: relative;
+  text-align: justify;
+}
+
+
+form{
+  position: absolute;
+  top:20px;
+}
+
+.hiding{
+    font-family: 'Holtwood One SC', serif;
+  color: #C5D1CF;
+  font-size: 40px;
+  position: relative;
+  text-align: justify;
+  top:320px;
+
+}
+
+.correctAnswer {
+   font-family: 'Holtwood One SC', serif;
+  color: #C5D1CF;
+  font-size: 40px;
+  position: relative;
+  text-align: justify;
+  top:0px;
+
+
+}
+.expand {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  background-color:#ededed;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+  left:300px;
+}.classname:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+  background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color:#dfdfdf;
+}.classname:active {
+  position:relative;
+  top:1px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px; 
+  background-color: #C5D1CF;
+  position: relative;
+  top: -340px;
+    font-family: 'Holtwood One SC', serif;
+  color: #C5D1CF;
+ 
+  z-index: 2;
+  /* width and height can be anything, as long as they're equal */
+}
+
+p#position {
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+

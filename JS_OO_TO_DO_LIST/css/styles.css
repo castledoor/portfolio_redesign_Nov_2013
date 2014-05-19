@@ -1,0 +1,35 @@
+body {
+  background-image: url(../img/binding_light.png);
+}
+
+p  {
+  font-size: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  top: 30px;
+
+}
+
+header {
+  color: #747873;
+  background-color: #88C971;
+  margin: 0px;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.container {
+}
+
+hr {
+  position: relative;
+  top: -20px;
+  color: #747873;
+  height: 10px;
+
+
+}
+
+.hiding {
+  display: none;
+}
