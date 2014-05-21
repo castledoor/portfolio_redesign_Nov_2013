@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link href="css/foundation.css" rel="stylesheet" type="text/css" media="all">
+  <head>
+    <link href="css/foundation.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
     <title>Triangle Calculator</title>
-</head>
-<h1>
-  NAME THAT TRIANGLE
-</h1>
-<div id="header">
-
-</div>
-<div class="container-fluid">
-  <body>
-  <form id="sideInput">
-    <label>Please Input the length of the first side:</label>
-    <input style="font-size:20px" type="text" id="sideOne" class="side" type="text">
-    <label>Please Input the length of the second side:</label>
-    <input style="font-size:20px" type="text" id="sideTwo" class="side" type="text">
-    <label>Please Input the length of the third side:</label>
-    <input style="font-size:20px" type="text" id="sideThree"class="side" type="text">
-    <button type="submit" class="expand">WHAT KIND OF TRIANGLE IS THIS?</button>
-  </form>
-   <p class="hiding">This triangle is: <span class="correctAnswer"></span>!</p>
-  </body>
-
-
-
-
-</div>
+  </head>
+  <h1>NAME THAT TRIANGLE</h1>
+  <div class="container-fluid">
+    <body>
+    <form id="sideInput">
+      <label>first side:</label>
+      <input type="number" id="sideOne" class="side" >
+      <label>second side:</label>
+      <input type="number" id="sideTwo" class="side" >
+      <label>third side:</label>
+      <input type="number" id="sideThree"class="side" >
+      <button type="submit" class="expand">WHAT KIND OF TRIANGLE IS THIS?</button>
+    </form>
+     <p class="hiding">This triangle is: <span class="correctAnswer"></span>!</p>
+    </body>
+  </div>
 </html>

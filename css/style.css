@@ -46,8 +46,11 @@ p {
 	color: white;	
 }
 
-
-
+.jsimage {
+	width: 215px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
 
 ::-moz-selection {
 	background-color: rgba(226,111,80,1.0);
