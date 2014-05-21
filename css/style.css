@@ -29,6 +29,13 @@ body {
 	background-image:url('../img/background-lighter.png');
 }
 
+.hangman {
+	margin-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size:13px;
+}
+
 span {
 	font-weight: 400;
 }
@@ -123,7 +130,7 @@ li.info-list {
 	margin-left: 170px;
 }
 
-#services .content, #about .content, #contact .content { padding: 75px 25px; }
+#services .content, #about .content, #contact .content  { padding: 75px 25px; }
 
 #container {
 	height: 100%;
@@ -913,7 +920,7 @@ a#portfolio-nav {
 	font-weight: 300;
 }
 
-a#services-nav {
+a#services-nav  {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 }
