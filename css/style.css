@@ -1279,7 +1279,7 @@ li {
 }
 
 a.everbutton.everbutton-blue {
-	box-shadow: inset 0 1px 0 #3bb5bd;
+	box-shadow: inset 0 1px 0 #3bb5bd !important;
 	background-color: #e03368 !important;
 	background-image: -webkit-linear-gradient(top, #e03368, #e03368) !important;
 	background-image: -moz-linear-gradient(top, #187dbd, #0065a5) !important;
