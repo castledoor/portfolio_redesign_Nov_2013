@@ -1273,6 +1273,22 @@ li {
 	resize: none;
 }
 
+.make-a-payment {
+	margin-right: -1216px;
+	margin-top: -62px !important;
+}
+
+a.everbutton.everbutton-blue {
+	box-shadow: inset 0 1px 0 #3bb5bd;
+	background-color: #e03368 !important;
+	background-image: -webkit-linear-gradient(top, #e03368, #e03368) !important;
+	background-image: -moz-linear-gradient(top, #187dbd, #0065a5) !important;
+	background-image: -ms-linear-gradient(top, #187dbd, #0065a5)!important;
+	background-image: -o-linear-gradient(top, #187dbd, #0065a5)!important;
+	background-image: linear-gradient(top, #187dbd, #0065a5)!important;
+	color: #ffffff;
+}
+
 #contact .field:focus {
 	border: 3px solid rgba(67,67,67,1.0);
 }
